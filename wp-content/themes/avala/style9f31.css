@@ -1770,7 +1770,7 @@ body.btBelowMenu .btPageHeadline .bt_bb_port {
     display: block;
     }
 .btMenuVertical .bt-logo-area .logo img {
-    height: 48px;
+    height: 100px;
     }
 .btMenuCenter .bt-logo-area .logo img {
     margin: auto;
@@ -3154,7 +3154,7 @@ body.btBelowMenu.btMenuHorizontal.btLightDarkHeader .mainHeader.gutter {
     position: relative;
     padding: 0;
     float: left;
-    margin: 14px 0;
+    margin: 40px 0;
     }
 .bt-vertical-menu-trigger .bt_bb_icon:before,
 .bt-vertical-menu-trigger .bt_bb_icon:after {
