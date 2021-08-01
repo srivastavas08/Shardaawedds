@@ -15507,6 +15507,8 @@
 			background-color: #fcdede;
 		}
 
+		
+
 		.btMenuHorizontal .topBarInMenu {
 			height: 60px;
 		}
@@ -18362,45 +18364,10 @@
 																								aria-invalid="false"
 																								placeholder="E-mail"></span>
 																					</div>
-																					<div
-																						class="btContactRow btEvent">
-																						<span
-																							class="btContactLabel">Choose
-																							Event</span><span
-																							class="wpcf7-form-control-wrap event-list">
-																							<select
-																								class="fancy-select"
-																								name="Event-list"
-																								style="width: 1px; height: 1px; display: none; position: absolute; top: 0px; left: 0px; opacity: 0;"
-																								>
-																								
-																								<option
-																										value="Engagement">
-																										Engagement
-																									
-																									</option>
-																									<option
-																										value="Reception">
-																										Reception
-																										
-																									</option>
-																									<option
-																										value="Wedding">
-																										Wedding
-																									</option>
-																									<option
-																										value="Anniversary">
-																										Anniversary
-																									
-																									</option>
-																				
-																				
-																							</select>
-																						</span>
-																					</div>
+
 																					<div class="btContactRow">
 																						<span
-																							class="wpcf7-form-control-wrap your-name"><input
+																							class="wpcf7-form-control-wrap"><input
 																								type="text"
 																								name="Number"
 																								value=""
@@ -18408,6 +18375,23 @@
 																								aria-required="true"
 																								aria-invalid="false"
 																								placeholder="Phone Number "></span>
+																					</div>
+																					<div class="btContactRow btEvent">
+																						<span
+																								class="btContactLabel">Choose
+																								Event</span><span>
+																						<select 
+																						name="event-list"
+        																				class="fancySelect">
+
+        																				
+																							<option value="Engagement">Engagement</option>
+																							<option value="Reception">Reception</option>
+																							<option value="Wedding">Wedding</option>
+																							<option value="Anniversary">Anniversary</option>
+																							
+																						</select>
+																					</span>
 																					</div>
 																					<div class="btContactButton">
 																						<button id="submit" onclick="window.open('Thanks/index.html', '_blank')";
@@ -18936,9 +18920,9 @@
 	<script type='text/javascript' id='wp-polyfill-js-after'>
 		('fetch' in window) || document.write('<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>'); (document.contains) || document.write('<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>'); (window.DOMRect) || document.write('<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>'); (window.URL && window.URL.prototype && window.URLSearchParams) || document.write('<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>'); (window.FormData && window.FormData.prototype.keys) || document.write('<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>'); (Element.prototype.matches && Element.prototype.closest) || document.write('<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>'); ('objectFit' in document.documentElement.style) || document.write('<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>');
 	</script>
-
+<!-- 
 	<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/indexc225.js?ver=5.4.1'
-		id='contact-form-7-js'></script>
+		id='contact-form-7-js'></script> -->
 	<script type='text/javascript'
 		src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'
 		id='jquery-blockui-js'></script>
@@ -18975,18 +18959,7 @@
 		id='avala-content-slider-count-items-js'></script>
 	<script type='text/javascript' src='wp-content/themes/avala/framework/js/framework_misc9f31.js?ver=5.7.2'
 		id='boldthemes-framework-misc-js'></script>
-	<script type='text/javascript' id='boldthemes-framework-misc-js-after'>
-		var boldthemes_dropdown = document.querySelector(".widget_categories #cat");
-		function boldthemes_onCatChange() {
-			if (boldthemes_dropdown.options[boldthemes_dropdown.selectedIndex].value > 0) {
-				location.href = "http://avala.bold-themes.com/summer/?cat=" + boldthemes_dropdown.options[boldthemes_dropdown.selectedIndex].value;
-			}
-		}
-		if (boldthemes_dropdown !== null) {
-			boldthemes_dropdown.onchange = boldthemes_onCatChange;
-		}
 
-	</script>
 	<script type='text/javascript'
 		src='../../www.google.com/recaptcha/apic1f0.html?render=6LfmEKAaAAAAAJGwYMNSdux-yATrkwZcw6GT6N41&amp;ver=3.0'
 		id='google-recaptcha-js'></script>
