@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+sitemap: https://www.shardaweddings.com/sitemap.xml
+
